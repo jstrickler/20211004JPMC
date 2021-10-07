@@ -5,6 +5,8 @@ This is a simple library for demonstrating how modules work.
 """
 from math import pi
 
+print("MY NAME IS", __name__)
+
 def circle_area(diameter):
     """
     Calculate area of circle with specified diameter
